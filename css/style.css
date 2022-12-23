@@ -1,0 +1,181 @@
+
+/* ============= common start ================  */
+*{
+     padding: 0px;
+     margin: 0px;
+ }
+ 
+ body{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     line-height: 24px;
+ }
+ 
+ h1, h2, h3, h4, h5, h6{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+     line-height: 24px;
+ }
+ 
+ img{
+     max-width: 100%;
+     height: auto;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+ 
+ a:hover{
+     text-decoration: none;
+ }
+ 
+ /*  css code for title */
+ 
+ .title{
+     width: 100%;
+ }
+ 
+ .title h1{
+     font-size: 64px;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #28377e;
+     line-height: 1.4;
+     margin: 0px 0px 20px;
+ }
+ 
+ /* header code start */
+ 
+ .header{
+     width: 100%;
+     background: #fff;
+ }
+ 
+ .header .navbar-expand-lg .navbar-nav .nav-link{
+     font-size: 14px;
+     font-weight: 600;
+     text-transform: uppercase;
+     font-family: 'Montserrat', sans-serif;
+     margin: 0px 0px 0px 20px;
+     color: #28377e;
+     transition: all linear .4s;
+     line-height: 50px;
+ }
+ 
+ .header .navbar-expand-lg .navbar-nav .nav-link:hover{
+     color: #f36c2a;
+ }
+ 
+ .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+     color: #f36c2a;
+ }
+ 
+ /* header code end */
+ 
+ /* slider code start */
+ 
+ .slider{
+     width: 100%;
+     padding: 35px 0px;
+     background: url("../images/slider.png") center top no-repeat;
+     background-size: cover;
+     text-align: center;
+ }
+ 
+ .slider .inner-slider{
+     width: 100%;
+     padding: 119px 0px 50px;
+ }
+ 
+ .slider .inner-slider h1{
+     font-size: 64px;
+     font-weight: 700;
+     text-transform: uppercase;
+     color: #fff;
+     line-height: 1.4;
+ }
+ 
+ .slider .inner-slider .arrow{
+     width: 100%;
+     padding: 140px 0px 0px;
+ }
+ 
+ .slider .inner-slider .arrow .fa{
+     font-size: 35px;
+     color: #fff;
+ }
+ 
+ /* slider code end */
+ 
+ /* about-us code start */
+ 
+ .about-us{
+     width: 100%;
+     padding: 80px 0px;
+ }
+ 
+ .about-us .title{
+     margin: 55px 0px 0px;
+ }
+ 
+ .about-us .title p{
+     font-size: 14px;
+     line-height: 24px;
+     color: #b0b0b1;
+ }
+ 
+ .about-us .inner-img{
+     width: 100%;
+     text-align: right;
+ }
+ 
+ /* about-us code start */
+ 
+ /* what we do code start */
+ 
+ .what-we{
+      width: 100%;
+      padding: 80px 0px;
+      background: url("../images/dobg.png") center top no-repeat;
+      background-size: cover;
+ }
+ 
+ .what-we .title{
+      text-align: center;
+      padding: 0px 0px 80px;
+ }
+ 
+ .what-we .card{
+      border-radius: 0px;
+ }
+ 
+ .what-we .card .card-heading{
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      transform: translate(0%, 50%);
+      top: 40%;
+      left: 0%;
+ }
+ 
+ .what-we .card .card-heading .card-title{
+      font-size: 22px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1.4;
+      color: #fff;
+ }
+ 
+ .what-we .card .long-arrow{
+     width: 100%;
+ }
+ 
+ .what-we .card .long-arrow img{
+      position: absolute;
+      bottom: 15%;
+      left: 40%;
+      transform: translate(50%, 50%);
+ }
+ 
+ /* what we do code end */
